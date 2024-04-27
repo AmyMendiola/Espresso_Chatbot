@@ -4,9 +4,14 @@
             "tag" : "espresso",
             "questions" : [
                 "What is espresso?",
-                "what kind of drink is espresso?",
+                "what drink is espresso?",
                 "How is espresso different than coffee?",
-                "espresso"
+                "What is the origin of espresso?",
+                "What makes espresso unique compared to other brewing methods?",
+                "espresso",
+                "What is espresso?",
+                "what drink is espresso?",
+                "How is espresso different than coffee?"
             ],
             "responses" : [
                 "Espresso is an Italian originated style of coffee that is brewed by forcing very hot water under high pressure through finely ground compacted coffee."
@@ -16,8 +21,15 @@
             "tag" : "coffee",
             "questions" : [
                 "What is coffee?",
-                "What kind of drink is coffee?",
+                "What drink is coffee?",
                 "What does coffee look like?",
+                "What does coffee taste like?",          
+                "How is coffee made?",
+                "What are common characteristics of coffee?",
+                "What are some different methods of preparing coffee?",
+                "What are some popular types of coffee brewing techniques?",
+                "Why does coffee have a dark color?",
+                "What gives coffee its acidic taste?",
                 "coffee"
             ],
             "responses" : [
@@ -28,8 +40,9 @@
             "tag" : "espresso machine",
             "questions" : [
                 "What is an espresso machine",
-                "What do you use to make espresso",
+                "How does an espresso machine brew coffee?",
                 "What does an espresso machine do?",
+                "What additional feature is commonly found on espresso machines?",
                 "espresso machine"
             ],
             "responses" : [
@@ -41,7 +54,11 @@
             "questions" : [
                 "How long do you brew espresso?",
                 "What is the brewing time for espresso?",
-                "brew time for espresso"
+                "brew time for espresso",
+                "What is the ideal extraction time for espresso?",
+                "What is the ideal brewing time for a standard double shot of espresso?",
+                "Why do experts recommend a specific brewing time for espresso?",
+                "brew time"
             ],
             "responses" : [
                 "The ideal brewing time for a standard double shot of espresso is 25 - 30 seconds. Experts have found it gives the espresso the best extraction, flavor profile, and crema formation."
@@ -52,7 +69,12 @@
             "questions" : [
                 "What is a coffee bean?",
                 "How are coffee beans used in espresso?",
-                "coffee bean"
+                "coffee bean",
+                "What are the beans?",
+                "Where do coffee beans come from?",
+                "What is the process of producing coffee from coffee beans?",
+                "What are the steps involved in producing coffee from the coffee fruit?",
+                "What is the significance of the coffee fruit in the coffee production process?"
             ],
             "responses" : [
                 "The coffee bean is the seeds of the coffee plant that are extracted from the coffee fruit. The process of producing coffee from the seeds includes drying, roasting, grinding, and brewing. The roasting process is significantly important to flavor of the coffee produced."
@@ -64,7 +86,13 @@
             "questions" : [
                 "What is the pressure?",
                 "How much pressure do you need to brew espresso?",
-                "pressure"
+                "pressure",
+                "What is the typical pressure range for a standard espresso machine?",
+                "What is considered the optimal pressure for brewing espresso?",
+                "What does 'bar' mean in the context of espresso brewing?",
+                "How much pressure does 1 bar represent in terms of atmospheric pressure?",
+                "Why is 9 bars of pressure considered optimal for espresso brewing?",
+                "How does pressure affect the flavor of espresso?"
             ],
             "responses" : [
                 "A standard espresso machine will brew between 8 and 10 bars, with 9 bars being the optimal for a good flavor. A 'bar' is a unit of measurement for pressure, where 1 bar is around the atmospheric pressure at sea level."
@@ -75,7 +103,12 @@
             "questions" : [
                 "How big is a shot of espresso?",
                 "What is a shot?",
-                "shot"
+                "shot",
+                "What is the volume of a single shot of espresso?",
+                "How much finely ground coffee is used for a single shot of espresso?",
+                "What is the volume of a double shot of espresso?",
+                "How much finely ground coffee is used for a double shot of espresso?",
+                "What is the difference in volume between a single shot and a double shot of espresso?"
             ],
             "responses" : [
                 "A single shot of espresso is around 1oz of espresso and uses around 7-9 grams of finely ground coffee, and a double shot is around 2oz of espresso and uses around 14-18 gram of finely ground coffee"
@@ -86,7 +119,15 @@
             "questions" : [
                 "What is crema?",
                 "What does the crema taste like?",
-                "crema"
+                "crema",
+                "What is the crema in a shot of espresso?",
+                "What does the crema of espresso consist of?",
+                "What creates the golden layer of foam on top of espresso?",
+                "What are the components that make up the crema in espresso?",
+                "How is crema related to the espresso extraction process?",
+                "Why is the presence of crema considered a good sign in espresso?",
+                "What factors contribute to the formation of crema in espresso?",
+                "Does crema affect the flavor or quality of espresso?"
             ],
             "responses" : [
                 "The crema of a shot of espresso is the golden layer of foam that sits on top of the espresso. It is composed of oils, protein, and carbon dioxide released during extraction. Its presence is generally indicative of a nicely pulled shot."
@@ -97,7 +138,16 @@
             "questions" : [
                 "What is roasting?",
                 "How do you roast for espresso?",
-                "roasting"
+                "roasting",
+                "Why is the roasting of coffee beans important for the flavor of coffee?",
+                "What color are coffee beans before they are roasted?",
+                "What kind of machines are used for coffee roasting?",
+                "How is time and temperature monitored during coffee roasting?",
+                "How does the roasting process affect the flavor of coffee?",
+                "What is the typical color of raw coffee beans?",
+                "How does roasting time impact the development of coffee flavor?",
+                "What is the difference between light, medium, and dark coffee roasts?",
+                "How is the level of roast determined in coffee roasting?"
             ],
             "responses" : [
                 "The roasting of raw coffee beans is a very important factor in the flavor of the resulting coffee. Before roasting the coffee, the beans are green. Coffee roasting is typically done in special roasting machines where time and temperature are closely monitored. The time it takes to roast varied and can determine the development of flavor and level of roast (dark, light, medium)"
@@ -108,9 +158,17 @@
             "questions" : [
                 "How do you steam milk?",
                 "How do you froth milk",
-                "froth milk",
-                "steam milk",
-                "steam"
+                "steam",
+                "What is the purpose of a steam wand on an espresso machine?",
+                "How does an espresso machine's steam wand work?",
+                "Why do espresso machines come with steam wands?",
+                "What is milk texturing, and how is it achieved with a steam wand?",
+                "How does the boiler in an espresso machine contribute to milk frothing?",
+                "What drinks can be made using the steam wand on an espresso machine?",
+                "What is the role of the boiler in an espresso machine?",
+                "How does the steam wand help create espresso-based drinks with milk?",
+                "What does 'frothing' mean in the context of espresso machines?",
+                "What are common uses for the steam wand on espresso machines?"
             ],
             "responses" : [
                 "Espresso machines typically come with a steam wand to heat and froth milk for espresso based drinks. The machines boiler heats water which the steam wand uses for milk texturing."
@@ -123,7 +181,16 @@
                 "What do you need to brew espresso?",
                 "What is the process of making espresso?",
                 "What is the process of brewing espresso?",
-                "brew"
+                "brew",
+                "How is espresso brewed?",
+                "What is the role of high pressure in brewing espresso?",
+                "Why is the water for brewing espresso very hot?",
+                "What is a puck of coffee in the context of espresso brewing?",
+                "How are the coffee grounds compacted for brewing espresso?",
+                "What is a portafilter in an espresso machine?",
+                "What is the function of a tamper in espresso brewing?",
+                "How does compacting the coffee grounds affect espresso brewing?",
+                "What is the process for preparing the coffee grounds before brewing espresso?"
             ],
             "responses" : [
                 "espresso is brewed by forcing very hot water under high pressure through a finely ground compacted puck of coffee. The grounds are compacted in the espresso machines portafilter using a tamper" 
@@ -134,7 +201,17 @@
             "tag" : "caffeine",
             "questions" : [
                 "How much caffeine is in espresso?",
-                "caffeine"
+                "caffeine",
+                "How much caffeine is in a typical double shot of espresso?",
+                "What is the caffeine content of a single shot of espresso?",
+                "Can the caffeine content of espresso vary?",
+                "How much caffeine is in a double shot compared to a single shot of espresso?",
+                "Why might the caffeine content in espresso differ from shot to shot?",
+                "What factors can influence the caffeine content in espresso?",
+                "Does the type of coffee bean affect the caffeine content in espresso?",
+                "What are some variables that can impact the caffeine content in espresso?",
+                "What is the typical caffeine content for a double shot of espresso?",
+                "What is the typical caffeine content for a single shot of espresso?"
             ],
             "responses" : [
                 "A typical double shot of espresso has around 125mg of caffeine and a single shot of espresso has around 63 milligrams of caffeine, although the exact caffeine content may vary due to the bean type and various brewing variables."
@@ -146,7 +223,12 @@
                 "What are espresso drinks?",
                 "What is added to espresso?",
                 "what are the types of espresso drinks?",
-                "drink"
+                "drink",
+                "What are some common espresso-based drinks?",
+                "What are the ingredients typically added to espresso-based drinks?",
+                "What is the role of steamed milk in espresso-based drinks?",
+                "What kinds of milk-based ingredients are used in espresso drinks?",
+                "What additional ingredients are used to create different espresso-based drinks?"
             ],
             "responses" : [
                 "There are many espresso based drinks such as lattes, americanos, cappuccinos, etc. that have added ingredients such as steamed milk, milk foam, chocolate, water etc."
@@ -158,7 +240,18 @@
             "questions" : [
                 "What is a grinder?",
                 "What is a coffee grinder?",
-                "grinder"
+                "grinder",
+                "What is a grinder used for in coffee brewing?",
+                "Why is a grinder needed for preparing coffee?",
+                "What is the purpose of grinding coffee beans?",
+                "What are burr grinders, and why are they recommended for espresso?",
+                "How do burr grinders differ from other types of coffee grinders?",
+                "Why is it important to have consistently sized coffee grounds for espresso?",
+                "What is the advantage of using a burr grinder for espresso?",
+                "Are there different types of coffee grinders, and how do they work?",
+                "How does a burr grinder produce more consistent coffee grounds?",
+                "Why does espresso require finely ground coffee compared to other brewing methods?",
+                "What type of grind size is best for espresso?"
             ],
             "responses" : [
                 "A grinder is a machine used to grind the coffee bean into fine peices/particles for brewing coffee. Burr grinders are recommended for espresso as they produce more consistenly sized coffee grounds."
@@ -170,7 +263,12 @@
             "questions" : [
                 "What temperature for espresso?",
                 "How hot is the water to make espresso?",
-                "tempurature"
+                "tempurature",
+                "What is the recommended temperature range to brew espresso?",
+                "What is the ideal temperature for brewing espresso in degrees Fahrenheit?",
+                "What is the ideal temperature for brewing espresso in degrees Celsius?",
+                "Why is temperature important when brewing espresso?",
+                "Why is temperature control critical in espresso brewing?"
             ],
             "responses" : [
                 "The recommended temperature to brew espresso is between 195 - 205 degrees farenheigt (90-96 celcius)"

@@ -63,7 +63,7 @@ y_labels = np.array(y_labels)
 # print(y_labels.shape)
 
 model = keras.Sequential([
-    layers.InputLayer(input_shape=(X_bags.shape[1], 1)),  # Bag-of-words shape with 1 feature
+    layers.InputLayer(input_shape=(None, X_bags.shape[1])),  # Bag-of-words shape with 1 feature
     layers.LSTM(32),  # LSTM with 32 units
     layers.Dense(16, activation='relu'),  # A dense layer
     layers.Dense(15, activation='sigmoid')  # Output layer for binary classification
