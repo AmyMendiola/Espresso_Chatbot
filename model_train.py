@@ -3,6 +3,8 @@ import json
 import tensorflow as tf
 import nltk
 from nltk.stem import PorterStemmer
+import keras
+from tensorflow.keras import layers
 
 with open('dataset.json', 'r') as file:
     dataset = json.load(file)
@@ -55,5 +57,20 @@ for idx, x in enumerate(X):
     X_bags.append(bag_of_words)
     y_labels.append(labels.index(y[idx]))
 
+X_bags = np.array(X_bags)
+y_labels = np.array(y_labels)
 # print(X_bags.shape)
 # print(y_labels.shape)
+
+model = keras.Sequential([
+    layers.InputLayer(input_shape=(X_bags.shape[1], 1)),  # Bag-of-words shape with 1 feature
+    layers.LSTM(32),  # LSTM with 32 units
+    layers.Dense(16, activation='relu'),  # A dense layer
+    layers.Dense(15, activation='sigmoid')  # Output layer for binary classification
+])
+
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+X_bags_reshaped = X_bags.reshape((X_bags.shape[0], X_bags.shape[1], 1))
+
+model.fit(X_bags_reshaped, y_labels, epochs=10, validation_data=(X_bags_reshaped, y_labels))
