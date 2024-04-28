@@ -36,9 +36,7 @@ def preprocess(txt, vocab):
     bags = []
 
     tokens = nltk.word_tokenize(txt)
-
     stemmer = PorterStemmer()
-
     tokens = [stemmer.stem(t.lower()) for t in tokens]
 
     bag = []
@@ -50,7 +48,7 @@ def preprocess(txt, vocab):
         
     bags.append(bag)
     bags = np.array(bags)
-    print(bags.shape)
+    #print(bags.shape)
     bag_reshape = bags.reshape((-1, 1, bags.shape[1]))
     return bag_reshape
 
@@ -86,7 +84,7 @@ def farewell():
 def get_response(tag, dataset):
     for t in dataset['intents']:
         if t['tag'] == tag:
-            response = t['responses']
+            response = t['responses'][0]
             
     return response
 
@@ -97,13 +95,16 @@ model = get_model()
 label_dict = get_labels()
 user_db.init()
 
+
 #*** START BOT ***
 user_tag = 'USER' #stating user tag
 bot_fulltag = 'BOT: '
 
+
 #*** GREET ***
 greeting = greet_user()
 print ('\n\n\n\n'+ greeting)
+
 
 #*** PROCESS NAME ***
 inquire_name = bot_fulltag + 'Before we start, can I ask what your name is?'
@@ -123,9 +124,10 @@ if (isReturning == False):
 else: 
     greeting_tag = 'Welcome Back, '
 
+
 #*** BOT INTRO ***
 print(bot_fulltag + greeting_tag + user_tag + '!')
-print('If you ever want to stop the conversation, reply with \'!\'.')
+print(bot_fulltag + 'If you ever want to stop the conversation, reply with \'!\'.')
 print(bot_fulltag + 'Let me introduce you to some of the topics you can learn about. You can ask about ', end='')
 for i, topic in enumerate(label_dict.values()):
     if i != len(label_dict.values()) - 1:
@@ -133,6 +135,8 @@ for i, topic in enumerate(label_dict.values()):
     else:
         print('and ' + topic + '.')
 
+
+#*** CONVERSATION LOOP ***
 keep_talking = True
 while (keep_talking): #conversation loop
     user_input = input(user_tag + ": ")
@@ -141,20 +145,19 @@ while (keep_talking): #conversation loop
 
     else:
         processed_input = [preprocess(user_input, vocab)]
-        results = model.predict(processed_input)
-        #print(results)
+        results = model.predict(processed_input,verbose = 0)
         results_index = np.argmax(results)
         tag = label_dict[str(results_index)]
-
-        print(tag)
 
         #db update
         user_db.update(name, "interested topics", tag)
         user_db.update(name, "queries", user_input)
 
         #print response
-        print(get_response(tag, dataset))
+        print(bot_fulltag + get_response(tag, dataset))
 
+
+#*** FINAL Q ***
 #check if favorite drink hasnt been answered, if not ask
 if user_db.get(name, "favorite drink") == "":
     print(bot_fulltag + user_tag + ' before you go, Do you have a favorite coffee or espresso drink? If so, what is it?')
@@ -164,23 +167,15 @@ if user_db.get(name, "favorite drink") == "":
         print(bot_fulltag + fav_drink + ' is a very cool choice.')
     else: user_db.update(name, "favorite drink", "N/A")
 
+
+#*** BYE BYE ***
 print(bot_fulltag + farewell())
 print('\nThank You!\n')
 
+
+#*** DISPLAY USER DATA ***
 #display user_info items
 print('Here are the user logged items: ')
 user, db, _ = user_db.find(name)
 print(user)
-        
-
-
-# user_input = 'How much caffeine is in a double shot compared to a single shot of espresso?'
-# processed_input = [preprocess(user_input, vocab)]
-# results = model.predict(processed_input)
-# print(results)
-# results_index = np.argmax(results)
-# tag = label_dict[str(results_index)]
-
-# print(tag)
-
 
