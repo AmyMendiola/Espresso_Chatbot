@@ -14,7 +14,7 @@ def init():
         print('Database already exists.')
 
 def find(name):
-
+    name = name.lower()
     isReturning = False
 
     empty_user = {
@@ -42,6 +42,7 @@ def find(name):
     return empty_user, db, isReturning
 
 def update(name, type, info):
+    name = name.lower()
     user, db, _ = find(name)
 
     #update
@@ -56,6 +57,7 @@ def update(name, type, info):
         json.dump(db, file, indent=4)
 
 def get(name, type):
+    name = name.lower()
     user, db, _ = find(name)
     for user in db:
         if (user.get('name') == name):

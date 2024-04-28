@@ -14,7 +14,7 @@
                 "How is espresso different than coffee?"
             ],
             "responses" : [
-                "Espresso is an Italian originated style of coffee that is brewed by forcing very hot water under high pressure through finely ground compacted coffee."
+                "Espresso is a concentrated coffee made by forcing hot water under high pressure through finely ground coffee. This Italian-style brew is known for its rich flavor, intense aroma, and a creamy foam on top called \"crema.\" Unlike regular coffee, which uses slower brewing methods, espresso is brewed quickly under pressure, resulting in a strong, small shot that forms the base for drinks like lattes and cappuccinos. Originating in Italy in the early 1900s, espresso has become a cornerstone of coffee culture worldwide."
             ]
         },
         {
@@ -33,7 +33,7 @@
                 "coffee"
             ],
             "responses" : [
-                "A drink brewed from roasted coffee beans. It is usually darkly colored, somewhat acidic and can have a stimulating effect due to the presence of caffeine. Coffee can be prepared in a number of ways including espresso, french press, drip, pour over, moka pot, etc." 
+                "Coffee is a drink made from brewing roasted coffee beans. It's typically dark in color, with a strong aroma and a stimulating effect due to caffeine. It can taste rich, slightly acidic, and have a range of flavors depending on the type of bean and roasting method. Common ways to make coffee include espresso, French press, drip, pour-over, and moka pot. Each method has its unique process and can produce coffee with varying strength, body, and flavor notes. The dark color comes from roasting the beans, while the acidic taste is due to natural acids found in the coffee." 
             ]
         },
         {
@@ -46,7 +46,7 @@
                 "espresso machine"
             ],
             "responses" : [
-                "An espresso machine is an appliance that brews espresso by forcing pressurized water through a puck of finely ground coffee beans. They will often come with a steam wand used to steam milk for espresso-based beverages."
+                "An espresso machine is a device that brews espresso by forcing hot, pressurized water through finely ground coffee. This pressure is what creates a strong, concentrated shot of espresso with a creamy \"crema\" on top. Many espresso machines also have a steam wand, which is used to steam and froth milk for lattes, cappuccinos, and other espresso-based drinks. The machines can range from simple home models to larger commercial versions used in coffee shops."
             ]
         },
         {
@@ -61,7 +61,7 @@
                 "brew time"
             ],
             "responses" : [
-                "The ideal brewing time for a standard double shot of espresso is 25 - 30 seconds. Experts have found it gives the espresso the best extraction, flavor profile, and crema formation."
+                "The ideal brewing time for a standard double shot of espresso is typically between 25 and 30 seconds. This time frame is generally considered optimal for achieving a balanced extraction, a rich flavor profile, and a proper crema—the creamy foam that forms on top of the espresso. For a single shot of espresso, which contains less coffee and water, the brewing time is usually shorter, typically around 20 to 25 seconds. This shorter time frame still allows for proper extraction without over-brewing, which can result in a bitter taste."
             ]
         },
         {
@@ -77,7 +77,7 @@
                 "What is the significance of the coffee fruit in the coffee production process?"
             ],
             "responses" : [
-                "The coffee bean is the seeds of the coffee plant that are extracted from the coffee fruit. The process of producing coffee from the seeds includes drying, roasting, grinding, and brewing. The roasting process is significantly important to flavor of the coffee produced."
+                "Coffee beans are the seeds of the coffee plant, which grow inside the coffee cherry. The coffee cherries are harvested when ripe, then processed to extract the beans. There are two main processing methods: the wet process, where cherries are pulped, fermented, washed, and dried, and the dry process, where they are dried in the sun before separating the beans. Then, they are roasted, ground, and brewed to make the coffee we drink. Each step contributes to the flavor and quality of the final beverage."
    
             ]
         },
@@ -95,7 +95,7 @@
                 "How does pressure affect the flavor of espresso?"
             ],
             "responses" : [
-                "A standard espresso machine will brew between 8 and 10 bars, with 9 bars being the optimal for a good flavor. A 'bar' is a unit of measurement for pressure, where 1 bar is around the atmospheric pressure at sea level."
+                "Espresso machines typically brew at pressures between 8 and 10 bars, with 9 bars being ideal. A \"bar\" is a unit of pressure measurement, with 1 bar roughly equivalent to atmospheric pressure at sea level (about 14.5 psi). The reason 9 bars is optimal is that it provides the right amount of pressure to extract a rich, full-flavored shot of espresso with a creamy crema. Too little pressure leads to weak espresso, while too much can cause it to taste bitter."
             ]
         },
         {
@@ -111,7 +111,7 @@
                 "What is the difference in volume between a single shot and a double shot of espresso?"
             ],
             "responses" : [
-                "A single shot of espresso is around 1oz of espresso and uses around 7-9 grams of finely ground coffee, and a double shot is around 2oz of espresso and uses around 14-18 gram of finely ground coffee"
+                "A single shot of espresso typically has a volume of about 1 ounce and uses 7 to 9 grams of finely ground coffee. A double shot, on the other hand, contains about 2 ounces of espresso and requires approximately 14 to 18 grams of finely ground coffee. A double shot uses twice as much coffee and produces twice the volume of a single shot. This is why double shots are often used as the base for espresso-based drinks like lattes and cappuccinos, while single shots are usually served straight or used in smaller drinks."
             ]
         },
         {
@@ -130,7 +130,7 @@
                 "Does crema affect the flavor or quality of espresso?"
             ],
             "responses" : [
-                "The crema of a shot of espresso is the golden layer of foam that sits on top of the espresso. It is composed of oils, protein, and carbon dioxide released during extraction. Its presence is generally indicative of a nicely pulled shot."
+                "Crema is the golden foam on top of a shot of espresso. It's made up of oils, proteins, and carbon dioxide released during brewing. This layer forms when high-pressure hot water hits the finely ground coffee, causing the oils to emulsify and the carbon dioxide to create tiny bubbles. Crema has a slightly bitter taste and adds texture and aroma to the espresso. Its presence generally indicates that the shot was pulled correctly, suggesting a good balance of pressure and grind. Several factors influence crema, like the freshness of the coffee, the grind size, and the brewing pressure. In espresso, crema is a sign of quality and contributes to the overall experience."
             ]
         },
         {
@@ -150,7 +150,7 @@
                 "How is the level of roast determined in coffee roasting?"
             ],
             "responses" : [
-                "The roasting of raw coffee beans is a very important factor in the flavor of the resulting coffee. Before roasting the coffee, the beans are green. Coffee roasting is typically done in special roasting machines where time and temperature are closely monitored. The time it takes to roast varied and can determine the development of flavor and level of roast (dark, light, medium)"
+                "Roasting is the process of heating raw coffee beans to develop their flavor and aroma. Green coffee beans, which are raw and grassy, turn brown and aromatic during roasting due to chemical changes like caramelization. Coffee is roasted in specialized machines that carefully control time and temperature. The level of roast (light, medium, or dark) depends on how long the beans are roasted. Light roasts are roasted briefly, yielding a milder taste with more acidity. Medium roasts offer a balanced flavor, while dark roasts are roasted longer for a deeper, bolder taste with less acidity. Roasting is key to the final flavor of coffee. Coffee roasters use precise controls to achieve the desired roast level without burning or under-roasting the beans. Each roast type has a unique flavor profile, allowing for a range of coffee tastes."
             ]
         },
         {
@@ -171,7 +171,7 @@
                 "What are common uses for the steam wand on espresso machines?"
             ],
             "responses" : [
-                "Espresso machines typically come with a steam wand to heat and froth milk for espresso based drinks. The machines boiler heats water which the steam wand uses for milk texturing."
+                "A steam wand on an espresso machine is used to heat and froth milk for espresso-based drinks like lattes and cappuccinos. The machine's boiler generates steam, which the wand releases into a pitcher of milk. To steam milk, you immerse the steam wand just below the surface, allowing air to mix with the milk, creating a creamy texture called \"microfoam.\" This frothy milk is then used to create drinks with a smooth, velvety feel. The steam wand is essential for making popular espresso-based drinks and for creating latte art, which is the design made on top of milk-based drinks. Overall, it's a key feature for those who enjoy coffee with milk."
             ]
         },
         {
@@ -193,7 +193,7 @@
                 "What is the process for preparing the coffee grounds before brewing espresso?"
             ],
             "responses" : [
-                "espresso is brewed by forcing very hot water under high pressure through a finely ground compacted puck of coffee. The grounds are compacted in the espresso machines portafilter using a tamper" 
+                "Espresso is made by forcing hot water through finely ground coffee that's been compacted into a \"puck.\" To prepare the puck, coffee is ground finely and placed in a portafilter, a metal holder with a handle. The grounds are then pressed down with a tamper to create a dense, even surface. Once the puck is ready, the portafilter is attached to the espresso machine, which uses high pressure to push hot water through the compacted coffee. This process creates a strong, concentrated shot of espresso." 
     
             ]
         },
@@ -214,7 +214,7 @@
                 "What is the typical caffeine content for a single shot of espresso?"
             ],
             "responses" : [
-                "A typical double shot of espresso has around 125mg of caffeine and a single shot of espresso has around 63 milligrams of caffeine, although the exact caffeine content may vary due to the bean type and various brewing variables."
+                "A single shot of espresso typically contains about 63mg of caffeine, while a double shot has around 125mg. However, the exact caffeine content can vary depending on factors like the type of coffee bean, the roast level, the grind size, and the brewing method. Brewing variables, such as the amount of coffee used, the pressure, and the water temperature, can also influence caffeine content. These factors lead to variations in caffeine levels in different espresso shots, even from the same machine or barista."
             ]
         },
         {
@@ -231,8 +231,7 @@
                 "What additional ingredients are used to create different espresso-based drinks?"
             ],
             "responses" : [
-                "There are many espresso based drinks such as lattes, americanos, cappuccinos, etc. that have added ingredients such as steamed milk, milk foam, chocolate, water etc."
-
+                "Espresso drinks are beverages that use espresso as the base. Popular types include lattes, cappuccinos, Americanos, macchiatos, mochas, and flat whites. The variations come from what is added to the espresso. Steamed milk is common in many espresso drinks. Lattes have a lot of steamed milk, while cappuccinos use a mix of steamed milk and milk foam. Americanos are made by adding hot water to espresso, making them milder. Other ingredients like chocolate, caramel, or flavored syrups can also be used to create different espresso drinks. These variations allow for a wide range of flavors and textures, from simple to more complex espresso-based drinks."
             ]
         },
         {
@@ -254,7 +253,7 @@
                 "What type of grind size is best for espresso?"
             ],
             "responses" : [
-                "A grinder is a machine used to grind the coffee bean into fine peices/particles for brewing coffee. Burr grinders are recommended for espresso as they produce more consistenly sized coffee grounds."
+                "A grinder is a machine that grinds coffee beans into smaller pieces for brewing. Coffee grinders are necessary to prepare beans for different brewing methods, with each method requiring a specific grind size. Burr grinders are often recommended for espresso because they produce uniform coffee grounds, which is crucial for consistent extraction. Unlike blade grinders, which chop beans into varying sizes, burr grinders crush beans between two abrasive surfaces to achieve an even grind. Espresso needs a fine grind because it brews under high pressure. Consistently fine grounds ensure a smooth extraction and a rich shot with crema. Using a burr grinder helps achieve this consistency, leading to better-tasting espresso."
 
             ]
         },
@@ -271,8 +270,7 @@
                 "Why is temperature control critical in espresso brewing?"
             ],
             "responses" : [
-                "The recommended temperature to brew espresso is between 195 - 205 degrees farenheigt (90-96 celcius)"
-
+                "The ideal temperature for brewing espresso is between 195 and 205 degrees Fahrenheit (90 to 96 degrees Celsius). This range ensures the right balance of flavor during extraction. Temperature control is key because if the water is too hot, the espresso can taste bitter due to over-extraction. If it's too cool, it might be weak or sour from under-extraction.Keeping the temperature consistent helps produce a balanced espresso shot with good crema. Espresso machines often have controls to maintain this temperature range for best results."
             ]
         }
     ]
