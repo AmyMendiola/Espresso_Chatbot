@@ -43,7 +43,7 @@ def find(name):
 
 def update(name, type, info):
     name = name.lower()
-    user, db, _ = find(name)
+    user, db, _ = find(name) #get db
 
     #update
     for user in db:
@@ -53,7 +53,7 @@ def update(name, type, info):
             elif (type == "interested topics" or type == "queries"):
                 user[type].append(info)
     
-    with open(DB_NAME, 'w') as file:
+    with open(DB_NAME, 'w') as file: #write to db
         json.dump(db, file, indent=4)
 
 def get(name, type):
